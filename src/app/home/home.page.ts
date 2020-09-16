@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor() {
+
+    const data=["johannes", "edin"]
+
+    console.log(data[0])
+    console.log(data[1])
+  }
 
 }
